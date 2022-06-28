@@ -80,7 +80,7 @@ The final call you receive before your activity is destroyed. This can happen ei
 
 ## Implenting Acivity LifeCycles 
 
-### [Click here for clear output video](https://drive.google.com/file/d/1Bn7BigK9imBACFA1JC3bbNNMHboMEC0a/view?usp=sharing)
+### [Click here for clear output video][https://drive.google.com/file/d/1Bn7BigK9imBACFA1JC3bbNNMHboMEC0a/view?usp=sharing](https://youtu.be/-mKyhgsO6nw)
 
 **Step 1:acivity_main.xml**
 ``` XML
