@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date :"
+            android:textSize="40sp"
+            android:id="@+id/tv_date"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country :"
+            android:textSize="40sp"
+            android:id="@+id/tv_country"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active Cases :"
+            android:textSize="40sp"
+            android:id="@+id/tv_active"
+            android:textColor="#E40909"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recovered :"
+            android:textSize="40sp"
+            android:id="@+id/tv_recovered"
+            android:textColor="#009688"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmed :"
+            android:textSize="40sp"
+            android:id="@+id/tv_confirmed"
+            android:textColor="#E91E63"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Death :"
+            android:textSize="40sp"
+            android:id="@+id/tv_death"
+            android:textColor="#FF9800"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+</layout>
