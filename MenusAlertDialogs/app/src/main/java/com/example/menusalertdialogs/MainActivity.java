@@ -1,8 +1,10 @@
 package com.example.menusalertdialogs;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.alert:
                 Toast.makeText(getApplicationContext(), "alert menu clicked", Toast.LENGTH_SHORT).show();
+                showAlertDialog();
                 break;
             case R.id.search:
                 Toast.makeText(getApplicationContext(), "Search menu clicked", Toast.LENGTH_SHORT).show();
@@ -38,4 +41,27 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    private void showAlertDialog() {
+        AlertDialog.Builder dialog=new AlertDialog.Builder(this);
+                dialog.setTitle("Alert..!");
+               dialog.setMessage("Do you want close the app..!");
+               dialog.setIcon(R.drawable.ic_baseline_settings_24);
+               dialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                   @Override
+                   public void onClick(DialogInterface dialogInterface, int i) {
+                     finish();
+                   }
+               });
+               dialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                   @Override
+                   public void onClick(DialogInterface dialogInterface, int i) {
+                       dialogInterface.dismiss();
+                   }
+               });
+               dialog.setCancelable(false);
+               dialog.show();
+
+    }
+
 }
