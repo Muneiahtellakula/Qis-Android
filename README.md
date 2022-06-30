@@ -8,3 +8,9 @@ https://forms.gle/3HH7C4xxq5mKDXeE7
 
 Day-2 attendance Link:
 https://forms.gle/rCWjYJBbVwwX3FyF6
+
+Day-3 attendance Link:
+https://forms.gle/zuX5xwxEPPHSWYS88
+
+Day-4 attendance Link:
+https://forms.gle/kKDMEeEFdTY5qAHQ9
