@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Recyclerview</string>
+    <string-array name="movie_Titles">
+        <item>AA</item>
+        <item>Bahubali</item>
+        <item>Cirutha</item>
+        <item>Darling</item>
+        <item>Eega</item>
+        <item>Fida</item>
+        <item>Ganga</item>
+        <item>Husharu</item>
+        <item>I</item>
+        <item>Julai</item>
+
+    </string-array>
+    <string-array name="movie_hero">
+        <item>NIthin</item>
+        <item>Prabash</item>
+        <item>Ram Charan</item>
+        <item>Prabash</item>
+        <item>Nani</item>
+        <item>Varun Tej</item>
+        <item>Lawrence</item>
+        <item>Tejus Kancherla</item>
+        <item>Vikram</item>
+        <item>Allu Arjun</item>
+
+    </string-array>
+</resources>
